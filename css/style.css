@@ -1,0 +1,306 @@
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans-Italic.eot');
+	src: local('../fonts/Fira Sans Italic'), local('../fonts/FiraSans-Italic'),
+	url('../fonts/FiraSans-Italic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/FiraSans-Italic.woff') format('woff'),
+	url('../fonts/FiraSans-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans-Bold.eot');
+	src: local('../fonts/Fira Sans Bold'), local('../fonts/FiraSans-Bold'),
+	url('../fonts/FiraSans-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/FiraSans-Bold.woff') format('woff'),
+	url('../fonts/FiraSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSansMedium-Italic.eot');
+	src: local('../fonts/Fira Sans Medium Italic'), local('../fonts/FiraSansMedium-Italic'),
+	url('../fonts/FiraSansMedium-Italic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/FiraSansMedium-Italic.woff') format('woff'),
+	url('../fonts/FiraSansMedium-Italic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSansLight.eot');
+	src: local('../fonts/Fira Sans Light'), local('../fonts/FiraSansLight'),
+	url('../fonts/FiraSansLight.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/FiraSansLight.woff') format('woff'),
+	url('../fonts/FiraSansLight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans.eot');
+	src: local('../fonts/Fira Sans'), local('../fonts/FiraSans'),
+	url('../fonts/FiraSans.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/FiraSans.woff') format('woff'),
+	url('../fonts/FiraSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSansMedium.eot');
+	src: local('../fonts/Fira Sans Medium'), local('../fonts/FiraSansMedium'),
+	url('../fonts/FiraSansMedium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/FiraSansMedium.woff') format('woff'),
+	url('../fonts/FiraSansMedium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSansLight-Italic.eot');
+	src: local('../fonts/Fira Sans Light Italic'), local('../fonts/FiraSansLight-Italic'),
+	url('../fonts/FiraSansLight-Italic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/FiraSansLight-Italic.woff') format('woff'),
+	url('../fonts/FiraSansLight-Italic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/FiraSans-BoldItalic.eot');
+	src: local('../fonts/Fira Sans Bold Italic'), local('../fonts/FiraSans-BoldItalic'),
+	url('../fonts/FiraSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/FiraSans-BoldItalic.woff') format('woff'),
+	url('../fonts/FiraSans-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'duvallcnormal';
+	src: url('../fonts/duvallc-webfont.eot');
+	src: url('../fonts/duvallc-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/duvallc-webfont.woff2') format('woff2'),
+	url('../fonts/duvallc-webfont.woff') format('woff'),
+	url('../fonts/duvallc-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'mazurka_scriptregular';
+	src: url('../fonts/mazurka-webfont.eot');
+	src: url('../fonts/mazurka-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/mazurka-webfont.woff2') format('woff2'),
+	url('../fonts/mazurka-webfont.woff') format('woff'),
+	url('../fonts/mazurka-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'DIN Pro Cond';
+	src: url('../fonts/DINPro-CondensedMedium.eot');
+	src: local('../fonts/DIN Pro Condensed Medium'), local('../fonts/DINPro-CondensedMedium'),
+	url('../fonts/DINPro-CondensedMedium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/DINPro-CondensedMedium.woff') format('woff'),
+	url('../fonts/DINPro-CondensedMedium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+.nazva{
+	font-family:'mazurka_scriptregular' ;
+	color: #7C1214 !important;
+}
+
+/* Portolio Hover */
+.da-thumbs li ,
+.da-thumbs li  img {
+	display: block;
+	position: relative;
+	width: 100%;
+
+}
+.da-thumbs li  {
+	overflow: hidden;
+
+}
+.da-thumbs li  article {
+	position: absolute;
+	background-repeat:repeat;
+	width: 100%;
+	height: 100%;
+}
+.da-thumbs li  article.da-animate {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+/* Initial state classes: */
+.da-slideFromTop {
+	left: 0px;
+	top: -100%;
+}
+.da-slideFromBottom {
+	left: 0px;
+	top: 100%;
+}
+.da-slideFromLeft {
+	top: 0px; 
+	left: -100%;
+}
+.da-slideFromRight {
+	top: 0px;
+	left: 100%;
+}
+/* Final state classes: */
+.da-slideTop {
+	top: 0px;
+}
+.da-slideLeft {
+	left: 0px;
+}
+.da-thumbs li  article a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	height:100%;
+}
+
+.da-thumbs {
+text-align:center;
+}
+
+.da-thumbs li  article h3{
+color:#fff;
+
+}
+
+.da-thumbs li  article span{
+
+color:#fff;
+display:block;
+}
+
+
+.photo-icon i{
+	font-size:36px;
+	margin: 25% 0 0 0;
+	display:block;
+}
+.video-icon i{
+	font-size:36px;
+	margin: 20% 0 0 0;
+	display:block;
+}
+a.i{
+	text-decoration:none;
+}
+span.zoom{
+overflow:hidden;
+display:block;
+width:35px;
+height:35px;
+background-color:#DF6232;
+border-radius:50px;
+cursor:pointer;
+background-repeat:no-repeat;
+background-position:center;
+margin-left:10px;
+}
+
+.portfolio_2col article h3{
+padding-top:70px !important;
+}
+
+/* Image Grid */
+.image_grid {
+	float:left;
+	overflow:hidden;
+	width:100%;
+	position:relative;
+
+}
+
+.image_grid li{
+	float: left;
+	line-height: 17px;
+	color: #686f74;
+	list-style:none;
+	overflow:hidden;
+
+	text-align:center;
+}
+
+
+/* Responsive image grid*/
+/* Mobile landscape width 320 */
+@media only screen and (max-width: 480px) {
+	.image_grid{
+width:100%;
+}
+
+.image_grid li img{
+width:100%;
+}
+#portfolio-items-wrap .portfolio-item {
+width: 100% !important;
+}
+}
+@media only screen and (max-width: 767px) {
+
+.image_grid{
+width:100%;
+}
+
+.image_grid li img{
+width:100%;
+}
+
+
+
+}
+
+
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+.image_grid li{
+width:100% !important;
+}
+
+.portfolio_4col .da-thumbs li article h3{
+padding-top:58px;
+}
+
+.portfolio_3col .da-thumbs li article h3{
+padding-top:34px;
+}
+
+.portfolio_2col .da-thumbs li article h3{
+padding-top:23px !important;
+}
+
+}
+
+
+
+
+
